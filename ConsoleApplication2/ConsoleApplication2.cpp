@@ -24,7 +24,7 @@ void PrintProcessNameAndID(DWORD processID)
 		}
 	}
 
-	// Print the process name and identifier.
+	// Print the process name and identifier. (Change "1564" to whatever PID you want to detect.)
 	if ((int)processID == 1564) {
 		MessageBoxW(NULL, L"DETECTED!", szProcessName, 0);
 	}
